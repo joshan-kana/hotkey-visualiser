@@ -1,32 +1,20 @@
 layout: {qmk_keyboard: zsa/voyager, layout_name: LAYOUT}
 layers:
   meh:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '-'
-  - CW TOGG
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - {t: BSPC, h: LSFT}
-  - Arc
+  - 
+  - 
+  - bitwarden popup
+  - search arc
+  - 
+  - define word
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - search files
   - Spotify
   - Obsidian
   - iTerm2
@@ -35,25 +23,37 @@ layers:
   - Warp
   - Keymapp
   - Finder
-  - ;
-  - {t: '''', h: RSFT}
-  - LGUI
-  - {t: Z, h: LALT}
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - {t: /, h: RALT}
-  - RCTL
-  - {t: ENT, h: L1}
-  - {t: TAB, h: LCTL}
-  - {t: BSPC, h: LSFT}
-  - {t: SPC, h: L2}
-  L1:
+  - 
+  - 
+  - 
+  - Arc
+  - 
+  - clip hist
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - almost max
+  - max
+  - mini win
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  hyper:
   - ESC
   - F1
   - F2
@@ -106,7 +106,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  L2:
+  hyper+shift:
   - RM TOGG
   - ANY(QK KB 0)
   - RM NEXT
