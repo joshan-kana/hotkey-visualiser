@@ -21,8 +21,8 @@
           (pkgs.writeScriptBin "km" ''
             ./visual-keymap.sh
           '')
-          (pkgs.writeScriptBin "another-script" ''
-            ./scripts/another-script.sh
+          (pkgs.writeScriptBin "live-reload" ''
+            echo "zsa_voyager_keymap.yaml keychron_q12_keymap.yaml" | tr ' ' '\n' | ${pkgs.entr}/bin/entr sh ./visual-keymap.sh
           '')
         ];
       in
