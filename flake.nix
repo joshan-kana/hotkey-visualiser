@@ -18,8 +18,8 @@
 
         # Create shell scripts
         scripts = [
-          (pkgs.writeScriptBin "rust-init" ''
-            ./scripts/keymap.sh
+          (pkgs.writeScriptBin "km" ''
+            ./keymap.sh
           '')
           (pkgs.writeScriptBin "another-script" ''
             ./scripts/another-script.sh
