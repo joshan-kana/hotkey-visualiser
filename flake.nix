@@ -19,7 +19,7 @@
         # Create shell scripts
         scripts = [
           (pkgs.writeScriptBin "km" ''
-            ./keymap.sh
+            ./visual-keymap.sh
           '')
           (pkgs.writeScriptBin "another-script" ''
             ./scripts/another-script.sh
