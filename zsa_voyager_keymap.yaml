@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: zsa/voyager, layout_name: LAYOUT}
 layers:
-  L0:
+  meh:
   - ESC
   - '1'
   - '2'
@@ -26,15 +26,15 @@ layers:
   - P
   - \
   - {t: BSPC, h: LSFT}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - Arc
+  - Spotify
+  - Obsidian
+  - iTerm2
+  - vscode
+  - VM
+  - Warp
+  - Keymapp
+  - Finder
   - ;
   - {t: '''', h: RSFT}
   - LGUI
